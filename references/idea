@@ -1,0 +1,19 @@
+https://github.com/vpereira/Surf_Prediction
+
+http://www.marine.ie/Home/site-area/data-services/real-time-observations/irish-marine-data-buoy-observation-network
+
+so the buoy observation is more or less just to validate the outcome I would say.. even better the rating from magic seaweed
+so the idea would be, to get some variables from weather and swell and see if we can predict the rating
+
+https://magicseaweed.com/developer/forecast-api
+
+the rating is a number
+so if you get variables like, wind direction, swell direction, etc maybe you can predict the rating
+but there are some models used to do the forecasting, prediction
+SWAN for example
+https://arxiv.org/abs/1709.08725
+https://www.tudelft.nl/en/ceg/about-faculty/departments/hydraulic-engineering/sections/environmental-fluid-mechanics/research/swan/
+https://magicseaweed.com/news/what-is-a-swell-model/6946/
+
+the author has a lot of information written https://magicseaweed.com/author/Ben-Freeston/2/
+
