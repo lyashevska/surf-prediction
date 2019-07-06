@@ -50,18 +50,13 @@ cols = ['AtmosphericPressure', 'WindDirection', 'WindSpeed',
 # rename columns
 df.columns = cols
 
-df.dtypes
-
-df.index
-
-plt.scatter(df.WaveHeight, df.WavePeriod, marker='.')
-
-
 df['Year'] = df.index.year
 df['Month'] = df.index.month
 df['Day'] = df.index.day
 
-df.head()
+df.to_csv('~/Documents/surf-prediction/data/processed/data_stationM3.csv')
+
+# interogate --> move to differenkt file
 
 # today
 df.loc['2019-07-05']
@@ -78,6 +73,8 @@ df.columns
 # WindDirection Easterly 60-120
 # WaveHeight if 0.5-3 -> 1, otherwise 0
 # MeanWaveDirection SW - NW
+
+plt.scatter(df.WaveHeight, df.WavePeriod, marker='.')
 
 
 cols_plot = ['SeaTemperature']
